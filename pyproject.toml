@@ -12,6 +12,7 @@ ollama = "^0.3.3"
 langchain-ollama = "^0.2.0"
 langgraph = "^0.2.43"
 crewai = "^0.76.9"
+serpapi = "^0.1.5"
 
 
 [build-system]
