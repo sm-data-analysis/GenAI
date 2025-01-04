@@ -13,6 +13,10 @@ langchain-ollama = "^0.2.0"
 langgraph = "^0.2.43"
 crewai = "^0.76.9"
 serpapi = "^0.1.5"
+yfinance = "^0.2.51"
+ta = "^0.11.0"
+google-generativeai = "^0.8.3"
+langchain-google-genai = "^2.0.7"
 
 
 [build-system]
