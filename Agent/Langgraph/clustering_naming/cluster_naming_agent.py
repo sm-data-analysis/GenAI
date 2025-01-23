@@ -1,6 +1,9 @@
+from langgraph.orchestration import Orchestrator
+
 class ClusterNamingAgent:
     def __init__(self):
         self.cluster_names = []
+        self.orchestrator = Orchestrator()
 
     def generate_cluster_name(self, cluster_id):
         # Placeholder for cluster naming logic
@@ -13,4 +16,5 @@ class ClusterNamingAgent:
         return self.cluster_names
 
     def execute(self, num_clusters):
-        return self.name_clusters(num_clusters)
+        # Use the orchestrator to handle the execution
+        return self.orchestrator.run(self.name_clusters, num_clusters)
